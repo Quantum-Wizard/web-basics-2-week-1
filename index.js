@@ -7,7 +7,7 @@
  * Example Output: "hello world"
  */
 
-console.log('hello world');
+console.log('EXAMPLE CHALLENGE OUTPUT: hello world');
 
 /* Challenge #1
  * Create a variable and print the value
@@ -21,7 +21,7 @@ console.log('hello world');
 
 // TODO: ADD CODE HERE
 var number1 = 10;
-console.log(number1);
+console.log(`CHALLENGE #1 OUTPUT: ${number1}`);
 
 /* Challenge #2
  * Create variables for your first and last name then print your full name
@@ -38,7 +38,8 @@ console.log(number1);
 var firstName = "Mario";
 var lastName = "Medel";
 let outputName = `${firstName} ${lastName}`;
-console.log(outputName);
+
+console.log(`CHALLENGE #2 OUTPUT: ${outputName}`);
 /* Challenge #3
  * Calculate the total price rounded to two decimals
  *
@@ -64,7 +65,7 @@ function roundToTwo(numToRound) {
 
 roundToTwo(total);
 
-console.log(`${finalMessage}${total}`);
+console.log(`CHALLENGE #3 OUTPUT: ${finalMessage}${total}`);
 
 /* Challenge #4
  * Declare a variable and conditionally assign it a value
@@ -90,7 +91,7 @@ if ( weather.toUpperCase() === 'SUNNY' ) {
   message = 'Aww! It\'s not sunny outside';
 }
 
-console.log(message);
+console.log(`CHALLENGE #4 OUTPUT: ${message}`);
 
 
 /* Challenge #5
@@ -110,7 +111,7 @@ function myFunction() {
   return Math.random().toString();
 }
 
-console.log(myFunction());
+console.log(`CHALLENGE #5 OUTPUT: ${myFunction()}`);
 /* Challenge #6
  * Rewrite the function in Challenge #5 as an arrow function
  *
@@ -128,7 +129,7 @@ const myArrowFunction = () => {
   return Math.random().toString();
 }
 
-console.log(myArrowFunction());
+console.log(`CHALLENGE #6 OUTPUT: ${myArrowFunction()}`);
 
 /* Challenge #7
  * Create a function that accepts a string argument and returns it in all uppercase
@@ -148,7 +149,7 @@ function stringToUpper(str) {
   return str.toUpperCase();
 }
 
-console.log(stringToUpper('i am screaming'));
+console.log(`CHALLENGE #7 OUTPUT: ${stringToUpper('i am screaming')}`);
 /* Challenge #8
  * Create a function that accepts a number argument and returns double its value
  *
@@ -174,4 +175,4 @@ var num1 = multiplyByTwo(1);
 var num2 = multiplyByTwo(5);
 var num3 = multiplyByTwo(10);
 
-console.log(num1, num2, num3);
+console.log(`CHALLENGE #8 OUTPUT: ${num1}, ${num2}, ${num3}`);
