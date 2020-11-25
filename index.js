@@ -53,12 +53,18 @@ console.log(outputName);
 
 // TODO: ADD CODE HERE
 
-var price = 7.35;
-var quantity = 10;
+var price = 7.99;
+var quantity = 11;
 var total = price * quantity;
 var finalMessage = 'TOTAL PRICE: $';
 
-console.log(`${finalMessage}${total.toString()}`);
+function roundToTwo(numToRound) {    
+  return +(Math.round(numToRound + "e+2")  + "e-2");
+}
+
+roundToTwo(total);
+
+console.log(`${finalMessage}${total}`);
 
 /* Challenge #4
  * Declare a variable and conditionally assign it a value
